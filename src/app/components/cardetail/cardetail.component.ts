@@ -13,6 +13,7 @@ export class CardetailComponent implements OnInit {
   cars: Car[] = [];
   carImages:CarImage[];
   dataLoaded = false;
+  imageUrl='https://localhost:44327/Uploads/Images/';
   constructor(
     private carDetail: CardetailService,
     private activatedRoute: ActivatedRoute

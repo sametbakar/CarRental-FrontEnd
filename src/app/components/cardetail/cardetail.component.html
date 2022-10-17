@@ -22,7 +22,7 @@
     <td>{{ car.brandName }}</td>
     <td>{{ car.colorName }}</td>
     <td>{{ car.carName }}</td>
-        <td *ngFor="let carImage of carImages"><img src="https://localhost:44327/Uploads/Images/{{ carImage.imagePath }}" alt="{{car.carName}}"></td>
+        <td *ngFor="let carImage of carImages"><img src="{{imageUrl}}{{ carImage.imagePath }}" alt="{{car.carName}}"></td>
   </tr>
  
 </table>
